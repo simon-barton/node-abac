@@ -11,6 +11,10 @@
     "joi": "^10.2.1",
     "lodash": "^4.17.2"
   },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/simon-barton/node-abac.git"
+  },
   "maintainers": [
     {
       "name": "Simon Barton"
