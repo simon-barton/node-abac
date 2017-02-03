@@ -1,12 +1,23 @@
 {
     "name": "node-abac",
     "version": "0.0.0",
+    "description": "Node.js Attributes Based Access Control library",
+    "keywords": [
+        "access-control",
+        "abac"
+    ],
     "main": "lib/abac.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "dependencies": {
         "joi": "^10.2.1",
         "lodash": "^4.17.2"
-    }
+    },
+    "maintainers": [
+        {
+            "name": "Simon Barton"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/simon-barton/node-abac/issues"
+    },
+    "license": "MIT"
 }
