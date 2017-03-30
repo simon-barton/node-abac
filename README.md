@@ -3,7 +3,9 @@ node-abac
 
 ### Node.js Attributes Based Access Control library
 
-[![npm version](https://badge.fury.io/js/node-abac.svg)](https://badge.fury.io/js/node-abac)
+[![npm version](https://badge.fury.io/js/node-abac.svg)](https://badge.fury.io/js/node-abac) 
+[![npm](https://img.shields.io/npm/dt/node-abac.svg)]() 
+[![npm](https://img.shields.io/npm/l/node-abac.svg)]()
 
 This library is designed to help implement the concept of Attribute Based Access Control (ABAC) in your Node.js applications 
 using simple `JSON` policies.
