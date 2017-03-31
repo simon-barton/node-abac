@@ -39,3 +39,9 @@ Boolean
 
 * boolAnd
 * boolOr
+
+Bitwise
+------
+
+* bitwiseAnd
+* bitwiseXor
