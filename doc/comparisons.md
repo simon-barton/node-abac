@@ -7,18 +7,18 @@ comparison the library is able to determine if the attribute matches the expecte
 Numeric
 -------
 
-* isGreaterThan
-* isGreaterThanEqualTo
-* isLesserThan
-* isLesserThanEqualTo
+* isGreaterThan (>)
+* isGreaterThanEqualTo (>=)
+* isLesserThan (<)
+* isLesserThanEqualTo (<=)
 
 String
 ------
 
-* isStrictlyEqual
-* isEqual
-* isStrictlyNotEqual
-* isNotEqual
+* isStrictlyEqual (===)
+* isEqual (==)
+* isStrictlyNotEqual (!==)
+* isNotEqual (!=)
 
 Datetime
 ----
@@ -37,11 +37,12 @@ Array
 Boolean
 ------
 
-* boolAnd
-* boolOr
+* boolAnd (&&)
+* boolIsEqual (===)
+* boolOr (||)
 
 Bitwise
 ------
 
-* bitwiseAnd
-* bitwiseXor
+* bitwiseAnd (&)
+* bitwiseXor (^)
