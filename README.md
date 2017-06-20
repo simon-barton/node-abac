@@ -32,10 +32,11 @@ const NodeAbac = require('node-abac');
 
 #### Policies
 
-Policies can be read from one or more JSON files
+Policies can be read from one or more files. Both JSON and YAML structures are supported and can be mixed if desired.
 
 ```javascript
-const Abac = new NodeAbac(['path/to/policy.json', 'another/path/policy2.json']);
+const Abac = new NodeAbac('path/to/policy.json');
+const Abac = new NodeAbac(['path/to/policy.json', 'another/path/policy2.yml']);
 ```
 
 Or passed directly in as a JavaScript object

@@ -9,6 +9,7 @@
   "main": "lib/abac.js",
   "dependencies": {
     "joi": "^10.2.1",
+    "js-yaml": "^3.8.4",
     "lodash": "^4.17.2"
   },
   "repository": {
