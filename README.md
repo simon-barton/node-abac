@@ -8,7 +8,7 @@ node-abac
 [![npm](https://img.shields.io/npm/l/node-abac.svg)](LICENSE)
 
 This library is designed to help implement the concept of Attribute Based Access Control (ABAC) in your Node.js applications 
-using simple `JSON` policies.
+using simple `JSON` or `YAML` policies.
 
 For more information on ABAC consider reading the [NIST Specification Guide](http://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.sp.800-162.pdf).
 
