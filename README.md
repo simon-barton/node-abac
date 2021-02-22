@@ -52,6 +52,7 @@ const myPolicy = {
         "can-drive": {
             attributes: {
                 "user.hasDrivingLicense": {
+                    /* NOTE: 'comparison_type' value must be lowercase e.g. 'boolean' vs 'isStrictlyEqual: Boolean' */
                     comparison_type: "boolean",
                     comparison: "booleanAnd",
                     value: true
